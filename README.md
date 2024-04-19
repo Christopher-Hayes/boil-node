@@ -10,7 +10,7 @@ gh repo create --private --clone --template Christopher-Hayes/boil-node node
 ```
 
 ```bash
-cd boil-node
+cd node
 ```
 
 ```bash
