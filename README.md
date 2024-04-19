@@ -1,6 +1,6 @@
 ```bash
 # One-liner: Create private repo. Install deps. Open VSCode.
-gh repo create --private --template Christopher-Hayes/boil-node && cd boil-node && yarn && code .
+gh repo create --private --template Christopher-Hayes/boil-node node && cd node && yarn && code .
 ```
 
 ## Setup
