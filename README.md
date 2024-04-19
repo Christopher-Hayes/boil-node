@@ -6,7 +6,7 @@ gh repo create --private --template Christopher-Hayes/boil-node node && cd node 
 ## Setup
 
 ```bash
-gh repo create --template Christopher-Hayes/boil-node
+gh repo create --private --template Christopher-Hayes/boil-node node
 ```
 
 ```bash
