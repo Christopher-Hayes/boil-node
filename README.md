@@ -1,3 +1,7 @@
+```bash
+gh repo create --template Christopher-Hayes/boil-node && cd boil-node && yarn && code .
+```
+
 # boil-node
 
 A template repo for simple Node.js projects.
@@ -22,6 +26,14 @@ I use Node.JS a lot for small internal tools. Typescript is a must-have when wor
 - `NO` Messing with tsc build config
 
 ## Setup
+
+```bash
+gh repo create --template Christopher-Hayes/boil-node
+```
+
+```bash
+cd boil-node
+```
 
 ```bash
 yarn
