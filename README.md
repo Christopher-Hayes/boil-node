@@ -1,5 +1,36 @@
 ```bash
+# One-liner: Create repo. Install deps. Open VSCode.
 gh repo create --template Christopher-Hayes/boil-node && cd boil-node && yarn && code .
+```
+
+## Setup
+
+```bash
+gh repo create --template Christopher-Hayes/boil-node
+```
+
+```bash
+cd boil-node
+```
+
+```bash
+yarn
+```
+
+## Start
+
+Run your code once.
+
+```bash
+yarn start
+```
+
+## Dev
+
+Your code will rerun when files change.
+
+```bash
+yarn dev
 ```
 
 # boil-node
@@ -24,41 +55,3 @@ I use Node.JS a lot for small internal tools. Typescript is a must-have when wor
 - `NO` Git hooks, vscode settings, or other annoying defaults
 - `NO` Testing, just building
 - `NO` Messing with tsc build config
-
-## Setup
-
-```bash
-gh repo create --template Christopher-Hayes/boil-node
-```
-
-```bash
-cd boil-node
-```
-
-```bash
-yarn
-```
-
-## Usage
-
-### Start
-
-Run your code once.
-
-```bash
-yarn start
-```
-
-### Dev
-
-Your code will rerun when files change.
-
-```bash
-yarn dev
-```
-
-### Build
-
-```bash
-yarn build
-```
