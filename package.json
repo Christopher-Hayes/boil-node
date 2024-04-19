@@ -2,11 +2,11 @@
   "name": "boil-node",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "ts-node ./src/index.ts",
+    "start": "ts-node ./src/main.ts",
     "build": "tsc",
-    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
+    "dev": "ts-node-dev --respawn --transpile-only ./src/main.ts"
   },
   "keywords": [],
   "author": "",
