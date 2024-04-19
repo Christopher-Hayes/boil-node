@@ -29,22 +29,24 @@ yarn
 
 ## Usage
 
-To use the project, you can run the following scripts defined in the package.json file:
+### Start
 
-- **Start**:
+Run your code once.
 
-   ```bash
-   yarn start
-   ```
+```bash
+yarn start
+```
 
-- **Build**:
+### Dev
 
-   ```bash
-   yarn build
-   ```
+Your code will rerun when files change.
 
-- **Dev**:
+```bash
+yarn dev
+```
 
-   ```bash
-   yarn dev
-   ```
+### Build
+
+```bash
+yarn build
+```
