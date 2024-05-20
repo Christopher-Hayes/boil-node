@@ -1,16 +1,14 @@
 {
   "name": "boil-node",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.2.0",
+  "description": "A dead simple boilerplate for Node.js projects.",
   "main": "main.js",
   "scripts": {
     "start": "ts-node ./src/main.ts",
     "build": "tsc",
     "dev": "ts-node-dev --respawn --transpile-only ./src/main.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "",
   "devDependencies": {
     "@types/node": "^20.12.7",
     "ts-node": "^10.9.2",
@@ -21,5 +19,8 @@
     "types": [
       "node"
     ]
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
