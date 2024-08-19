@@ -2,7 +2,8 @@
 
 ```bash
 # One-liner: Create private repo. Clone it. Install deps. Open VSCode.
-gh repo create --private --clone --template Christopher-Hayes/boil-node node && cd node && yarn && code .
+# Repo will be named "boil-node", unless you rename it below.
+PROJECT_NAME='boil-node' gh repo create --private --clone --template Christopher-Hayes/boil-node $YOUR_PROJECT_NAME && cd $YOUR_PROJECT_NAME && yarn && code .
 ```
 
 ## Start
