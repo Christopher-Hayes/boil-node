@@ -47,4 +47,3 @@ I use Node.JS a lot for small internal tools. Typescript is a must-have when wor
 - `NO` Messing with tsc build config
 - `NO` Testing, just building
 - `NO` Git hooks, vscode settings, or other annoying defaults
-  - **Update:** There is a git hook to create `.env` on clone. But, other than that, no hooks.
